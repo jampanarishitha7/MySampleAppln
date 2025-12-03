@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 from flask import Flask, request, render_template
 
 app = Flask(__name__)
@@ -14,3 +15,12 @@ def submit():
 
 if __name__ == '__main__':
     app.run(debug=True)
+=======
+from flask import Flask
+app = Flask(__name__)
+@app.route('/')
+def firstApp():
+    return "Hello World Welcome"
+if (__name__ == "__main__"):
+    app.run(debug = True)  
+>>>>>>> 7827d20eb15e8274d7b66eb07e65b547d6bf2101
